@@ -188,3 +188,8 @@ strong { font-weight: 700; color: var(--navy); }
 .org, .org:nth-child(3) { background: var(--tint); padding-top: 0; }
 .org .lg { background: var(--paper); margin: 0 -30px 22px; padding: 0 30px; height: 118px; border-bottom: 1px solid var(--line); }
 .org .lg img { mix-blend-mode: normal; }
+/* слайд 3: шапки карточек и нижний блок голубые, тело карточек белое */
+.org, .org:nth-child(3) { background: var(--paper); }
+.org .lg { background: var(--tint); }
+.s3 .callout { background: var(--tint); }
+.org .lg img { mix-blend-mode: multiply; }
