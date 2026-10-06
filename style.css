@@ -170,3 +170,5 @@ strong { font-weight: 700; color: var(--navy); }
 .nw { white-space: nowrap; }
 .org { height: 570px; }
 .fit img { width: 100%; height: 100%; }
+.slide:not(.dark) .brand img { mix-blend-mode: multiply; }
+.s2 .lead { font-size: 28px; max-width: 1650px; } .s2 .stats { margin-top: 26px; } .s2 .adn { bottom: 24px; }
