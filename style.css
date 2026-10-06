@@ -216,3 +216,5 @@ strong { font-weight: 700; color: var(--navy); }
 .mep { align-items: stretch; }
 .mep .card { height: auto; }
 .mep .photo { height: auto !important; position: relative; }
+/* акцентная линия под заголовком убрана, отступ сохранён */
+.rule { background: none; }
