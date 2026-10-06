@@ -264,3 +264,68 @@ strong { font-weight: 700; color: var(--navy); }
 .s7-fn b, .s7-txt b { color: var(--navy); }
 .s7-txt { justify-content: center; gap: 14px; padding: 24px 28px; border-top: 3px solid var(--accent); }
 .s7-txt p { margin: 0; font-size: 23px; line-height: 1.3; }
+
+/* 8–18 · редизайн */
+.stat { font-size: 24px; line-height: 1.3; color: var(--ink); }
+.s8 { display: grid; grid-template-columns: 440px 1fr; gap: 36px; height: 450px; }
+.s8-stats, .s10-stats { display: flex; flex-direction: column; gap: 16px; }
+.s8-stats .stat, .s10-stats .stat { min-height: 0; display: flex; align-items: center; gap: 20px; padding: 14px 24px; }
+.s8-stats .n, .s10-stats .n { flex: none; min-width: 110px; font-size: 56px; }
+.s8-note { margin: auto 0 0; color: var(--ink-2); font-size: 22px; line-height: 1.35; }
+.s8-proj { display: grid; grid-template-columns: repeat(5, 1fr); grid-template-rows: 1fr 1fr; gap: 14px; }
+.s8-proj img { width: 100%; height: 100%; object-fit: cover; border-radius: 8px; display: block; min-height: 0; }
+.s8-bottom { position: absolute; left: 96px; right: 96px; bottom: 48px; }
+.s8-bottom .callout { margin-top: 18px; font-size: 26px; padding: 16px 28px; }
+
+.s9 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 24px; }
+.s9 .card { display: flex; gap: 22px; align-items: center; padding: 16px 26px; font-size: 26px; line-height: 1.3; }
+.s9 .card.alt { background: var(--tint); }
+.s9 .k { flex: none; width: 30px; color: var(--accent); font-size: 48px; line-height: 1; }
+.gal9 { top: 590px; }
+
+.s10 { display: grid; grid-template-columns: 560px 1fr; gap: 40px; height: 690px; }
+.s10-gal { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1.3fr 1fr; gap: 16px; min-height: 0; }
+.s10-gal img { width: 100%; height: 100%; object-fit: cover; border-radius: 8px; display: block; min-height: 0; grid-column: span 2; }
+.s10-gal img:nth-child(2), .s10-gal img:nth-child(3) { grid-column: span 1; }
+
+.s11 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.s11 .card { padding: 22px 26px; }
+.s11 .n { margin-bottom: 14px; color: var(--accent); font-size: 44px; font-weight: 700; line-height: 1; }
+.s11 p { margin: 0; font-size: 23px; line-height: 1.38; }
+.gal11 { height: 300px; }
+
+.s13 { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 24px; }
+.s13 .stat { min-height: 280px; display: flex; flex-direction: column; justify-content: flex-end; font-size: 26px; }
+.s13 .n { margin-bottom: 14px; font-size: 80px; }
+.s13 .n.sm { font-size: 48px; }
+.s13-adn { display: flex; flex-direction: column; justify-content: space-between; gap: 20px; }
+.s13-adn img { width: 100%; max-width: 440px; }
+.s13-adn p { margin: 0; color: var(--navy); font-size: 26px; line-height: 1.35; }
+
+.cs { display: grid; grid-template-columns: 1fr 400px; gap: 32px; margin-top: 28px; height: 680px; }
+.cs .shot { margin: 0; height: 100%; min-height: 0; }
+.shot.grey { background: #737372; border-color: #737372; }
+.cs-res { display: flex; flex-direction: column; padding: 36px 34px; background: var(--navy); color: #fff; border-radius: 8px; }
+.cs-res b { color: var(--sky); font-size: 22px; letter-spacing: .12em; }
+.cs-res .n { margin-top: auto; color: #fff; font-size: 120px; font-weight: 700; line-height: 1; }
+.cs-res .n small { font-size: 44px; }
+.cs-res p { margin: 14px 0 0; font-size: 30px; line-height: 1.3; }
+.cs-res p.m { margin-top: 28px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.25); color: #B9CCDB; font-size: 24px; }
+.s16 { display: grid; grid-template-columns: 440px 1fr; gap: 40px; align-items: center; }
+.s16 .tile { height: 440px; } .s16 .tile img { width: 100%; height: 100%; object-fit: contain; }
+.s16 .chk li { margin-bottom: 26px; font-size: 30px; }
+.s17 { display: flex; flex-direction: column; gap: 24px; min-height: 0; }
+.s17 .lead { font-size: 30px; }
+.s17 .shot { flex: 1; }
+
+.five { grid-template-columns: repeat(5, 1fr); gap: 20px; }
+.five .card { min-height: 420px; padding: 28px; display: flex; flex-direction: column; }
+.five .n { margin-bottom: auto; padding-bottom: 30px; color: var(--accent); font-size: 60px; font-weight: 700; line-height: 1; }
+.five h3 { font-size: 30px; } .five p { font-size: 24px; }
+.five .card, .five .card:nth-child(n+4) { grid-column: auto; min-height: 520px; }
+.s8 { height: 560px; }
+.gal9 { top: 500px; }
+.gal11 { height: 420px; }
+.s13 .stat, .s13-adn { min-height: 400px; }
+.cs-res .n { font-size: 100px; white-space: nowrap; }
+.cs-res strong { color: var(--sky); }
