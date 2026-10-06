@@ -153,3 +153,6 @@ body:hover #bar, #bar:focus-within { opacity: 1; }
 .case .lead { font-size: 38px; }
 .b.sm li { font-size: 28px; margin-bottom: 12px; }
 .logos .tile img { max-height: 70px; } .logos5 .tile img { max-height: 112px; } .stds .tile img { max-height: 70px; }
+strong { font-weight: 700; color: var(--navy); }
+.result.big .num { font-size: 40px; font-weight: 400; } .result.big .num strong { color: var(--accent); font-size: 68px; line-height: 1; }
+.result.big { align-items: baseline; }
