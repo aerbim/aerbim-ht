@@ -172,6 +172,14 @@ strong { font-weight: 700; color: var(--navy); }
 .fit img { width: 100%; height: 100%; }
 .slide:not(.dark) .brand img { mix-blend-mode: multiply; }
 .s2 .lead { font-size: 28px; max-width: 1650px; } .s2 .stats { margin-top: 26px; } .s2 .adn { bottom: 24px; }
+/* слайд 2: ровная сетка, нижние карточки и плашка Autodesk на общих полях */
+.s2 .stats { margin-top: 28px; gap: 24px; }
+.s2 .stat { min-height: 0; display: flex; flex-direction: column; padding: 22px 28px 24px; }
+.s2 .stat p { margin-top: 14px; }
+.s2 .wide { margin-top: 24px; }
+.s2 .wide .card { display: flex; align-items: center; gap: 24px; padding: 24px 32px; }
+.s2 .wide .card .n { float: none; margin-right: 0; flex: none; }
+.s2 .adn { left: 96px; bottom: 44px; padding-top: 0; }
 .org .lg img { mix-blend-mode: multiply; }
 
 /* слайд 3: единый вид трёх карточек */
@@ -193,3 +201,8 @@ strong { font-weight: 700; color: var(--navy); }
 .org .lg { background: var(--tint); }
 .s3 .callout { background: var(--tint); }
 .org .lg img { mix-blend-mode: multiply; }
+/* слайд 2: плашка Autodesk внутри правой нижней карточки */
+.s2 .wide .card.duo { flex-direction: column; align-items: stretch; justify-content: center; gap: 18px; }
+.s2 .duo .top { display: flex; align-items: center; gap: 24px; }
+.s2 .duo .adn { position: static; padding-top: 18px; border-top: 1px solid var(--line); gap: 24px; font-size: 22px; }
+.s2 .duo .adn img { width: 150px; flex: none; }
