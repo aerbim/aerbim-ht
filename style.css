@@ -183,3 +183,4 @@ strong { font-weight: 700; color: var(--navy); }
 .org .lg { box-sizing: border-box; height: 96px; }
 .org .lg img { height: 64px; }
 .org .url { padding-top: 8px; }
+.org:nth-child(3) { background: var(--tint); }
