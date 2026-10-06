@@ -96,7 +96,7 @@ h2 { font-size: 56px; max-width: 1400px; }
 .photos2 { display: grid; grid-template-rows: 1fr 1fr; gap: 24px; height: 600px; }
 
 /* 6/8 · логотипы */
-.logos { display: grid; grid-template-columns: repeat(8, 1fr); gap: 14px; margin: 24px 0; }
+.logos { display: grid; grid-template-columns: repeat(10, 1fr); gap: 12px; margin: 24px 0; }
 .logos .tile { height: 92px; padding: 10px; }
 .logos5 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
 .logos5 .tile { height: 140px; }
@@ -152,3 +152,4 @@ body:hover #bar, #bar:focus-within { opacity: 1; }
 .slide.narrow h2 { max-width: 860px; }
 .case .lead { font-size: 38px; }
 .b.sm li { font-size: 28px; margin-bottom: 12px; }
+.logos .tile img { max-height: 70px; } .logos5 .tile img { max-height: 112px; } .stds .tile img { max-height: 70px; }
