@@ -227,7 +227,13 @@ strong { font-weight: 700; color: var(--navy); }
 .s4 p { margin: 0; }
 .s4 .asm { margin-top: 20px; padding: 14px 24px; background: var(--tint); border-left: 6px solid var(--accent); border-radius: 8px; color: var(--navy); font-size: 24px; font-weight: 600; }
 .s4 .asm b { margin-right: 18px; color: var(--accent); letter-spacing: .1em; }
-.gal4 { position: absolute; left: 96px; right: 96px; bottom: 30px; height: 190px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; }
-.gal4 img { width: 100%; height: 190px; object-fit: cover; border-radius: 8px; display: block; }
-.gal4 { grid-template-rows: 190px; }
+.gal4 { position: absolute; left: 96px; right: 96px; bottom: 30px; height: 270px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; }
+.gal4 img { width: 100%; height: 270px; object-fit: cover; border-radius: 8px; display: block; }
+.gal4 { grid-template-rows: 270px; }
 .gal4 img:first-child { object-position: left top; }
+/* слайд 4: ОВ и ВК + АСМ в одной нижней полосе, во втором ряду две широкие карточки */
+.s4 .sys { grid-template-columns: repeat(6, 1fr); }
+.s4 .sys .card { grid-column: span 2; }
+.s4 .sys .card:nth-child(n+4) { grid-column: span 3; }
+.s4 .asm { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; font-size: 22px; }
+.s4 .asm b { display: inline-block; margin-right: 14px; }
