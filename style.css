@@ -206,3 +206,13 @@ strong { font-weight: 700; color: var(--navy); }
 .s2 .duo .top { display: flex; align-items: center; gap: 24px; }
 .s2 .duo .adn { position: static; padding-top: 18px; border-top: 1px solid var(--line); gap: 24px; font-size: 22px; }
 .s2 .duo .adn img { width: 150px; flex: none; }
+
+/* слайд 4: карточки и фото одной высоты, текст без переполнения */
+.mep p { margin-bottom: 10px; }
+.mep .photo { height: 650px !important; }
+.mep h4:not(:first-child) { margin-top: 6px; }
+.mep h4 + h4 { margin-top: 0; }
+.mep h4:nth-of-type(3) { margin-top: 12px; }
+.mep { align-items: stretch; }
+.mep .card { height: auto; }
+.mep .photo { height: auto !important; position: relative; }
