@@ -173,3 +173,13 @@ strong { font-weight: 700; color: var(--navy); }
 .slide:not(.dark) .brand img { mix-blend-mode: multiply; }
 .s2 .lead { font-size: 28px; max-width: 1650px; } .s2 .stats { margin-top: 26px; } .s2 .adn { bottom: 24px; }
 .org .lg img { mix-blend-mode: multiply; }
+
+/* слайд 3: единый вид трёх карточек */
+.org .lg { height: 96px; margin-bottom: 14px; align-items: center; justify-content: flex-start; border-bottom: 1px solid var(--line); padding-bottom: 14px; }
+.org .lg img { height: 68px; width: auto; max-width: 100%; max-height: none; }
+.org .cty { min-height: 54px; line-height: 27px; }
+.org { height: 620px; }
+.org .lg, .org .cty, .org h3, .org .yr { flex: none; }
+.org .lg { box-sizing: border-box; height: 96px; }
+.org .lg img { height: 64px; }
+.org .url { padding-top: 8px; }
