@@ -184,3 +184,7 @@ strong { font-weight: 700; color: var(--navy); }
 .org .lg img { height: 64px; }
 .org .url { padding-top: 8px; }
 .org:nth-child(3) { background: var(--tint); }
+/* слайд 3: заливка всех карточек, шапка с логотипом белая */
+.org, .org:nth-child(3) { background: var(--tint); padding-top: 0; }
+.org .lg { background: var(--paper); margin: 0 -30px 22px; padding: 0 30px; height: 118px; border-bottom: 1px solid var(--line); }
+.org .lg img { mix-blend-mode: normal; }
