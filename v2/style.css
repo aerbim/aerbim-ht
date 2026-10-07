@@ -536,3 +536,7 @@ strong { font-weight: 700; color: var(--navy); }
 .s13 .s13-adn img { width: 380px; max-width: none; flex: none; }
 .s13 .s13-adn p { font-size: 30px; }
 .s13 .stat { justify-content: flex-start; padding-top: 48px; } .s13 .stat .n, .s13 .stat .n.sm { height: 150px; display: flex; align-items: flex-end; }
+.s13 { height: 560px; grid-template-rows: 1fr 160px; margin-top: 20px; }
+.s13 .stat { padding-top: 36px; gap: 14px; }
+.s13 .stat .n, .s13 .stat .n.sm { height: 140px; }
+.s13 + .callout { position: static; margin-top: 24px !important; }
