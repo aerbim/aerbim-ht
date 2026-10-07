@@ -526,3 +526,13 @@ strong { font-weight: 700; color: var(--navy); }
 .s13 { height: 650px; }
 .s13 .stat .n, .s13 .stat .n.sm { width: 270px; }
 .s13 .stat .n, .s13 .stat .n.sm { width: 330px; } .s13 .stat .n.sm { font-size: 56px; }
+
+/* 16 · вариант A: три цифры полосой сверху, Autodesk широкой лентой ниже */
+.s13 { grid-template-columns: repeat(3, 1fr); grid-template-rows: 1fr 170px; gap: 24px; height: 640px; }
+.s13 .stat { grid-row: 1; flex-direction: column; align-items: flex-start; justify-content: center; gap: 18px; padding: 36px 44px; border-left: 1px solid var(--line); border-top: 6px solid var(--accent); font-size: 32px; }
+.s13 .stat .n { width: auto !important; font-size: 150px; }
+.s13 .stat .n.sm { font-size: 84px; }
+.s13 .s13-adn { grid-row: 2; grid-column: 1 / -1; flex-direction: row; align-items: center; justify-content: flex-start; gap: 56px; padding: 0 48px; }
+.s13 .s13-adn img { width: 380px; max-width: none; flex: none; }
+.s13 .s13-adn p { font-size: 30px; }
+.s13 .stat { justify-content: flex-start; padding-top: 48px; } .s13 .stat .n, .s13 .stat .n.sm { height: 150px; display: flex; align-items: flex-end; }
