@@ -329,3 +329,79 @@ strong { font-weight: 700; color: var(--navy); }
 .s13 .stat, .s13-adn { min-height: 400px; }
 .cs-res .n { font-size: 100px; white-space: nowrap; }
 .cs-res strong { color: var(--sky); }
+
+/* ===== Подача v2: контент занимает поле листа, крупнее кегль там, где было пусто ===== */
+/* 5 · процесс — шаги и фото до нижнего поля */
+.two { grid-template-columns: 860px 1fr; }
+.steps, .photos2 { height: 740px; }
+.step { font-size: 32px; padding: 24px 32px; gap: 28px; }
+.step::before { width: 64px; height: 64px; font-size: 30px; }
+
+/* 6 · логотипы и лента семейств */
+.logos { gap: 14px; margin: 30px 0; }
+.logos .tile { height: 104px; }
+.slide .strip-img { height: 330px !important; }
+
+/* 7 · стандарты и функционал */
+.s7 { height: 800px; gap: 48px; grid-template-columns: 640px 1fr; }
+.s7 h3 { font-size: 36px; }
+.chk li { font-size: 29px; margin-bottom: 24px; }
+.s7-fn figcaption { font-size: 25px; padding: 16px 22px; }
+.s7-txt { gap: 20px; padding: 28px 32px; }
+.s7-txt p { font-size: 26px; }
+.s7-exp { font-size: 30px; padding: 26px 32px; }
+.s7-exp .n { font-size: 110px; }
+
+/* 10 · команда */
+.s10 { height: 800px; grid-template-columns: 600px 1fr; }
+.s10-stats { gap: 20px; }
+.s10-stats .stat { padding: 20px 28px; font-size: 28px; }
+.s10-stats .n { font-size: 72px; min-width: 150px; }
+.s10 .s8-note { font-size: 26px; }
+
+/* 11 · образование: карточки крупнее, без провала до фото */
+.s11 .card { padding: 28px 30px; min-height: 330px; }
+.s11 .n { font-size: 60px; margin-bottom: 18px; }
+.s11 p { font-size: 26px; }
+.gal11 { height: 380px; bottom: 72px; }
+
+/* 13 · автоматизация: цифры во всю высоту, вывод — плашкой у нижнего поля */
+.s13 { margin-top: 12px; }
+.s13 .stat, .s13-adn { min-height: 520px; padding: 32px 36px; }
+.s13 .stat { font-size: 30px; }
+.s13 .n { font-size: 140px; }
+.s13 .n.sm { font-size: 64px; }
+.s13-adn p { font-size: 30px; }
+.s13-adn img { max-width: 520px; }
+.s13 + .callout { position: absolute; left: 96px; right: 96px; bottom: 72px; margin: 0 !important; padding: 30px 40px; background: var(--tint); font-size: 36px !important; font-weight: 600; }
+
+/* 14–17 · кейсы: блок до подвала */
+.cs { height: 740px; }
+.case h2 + .cs { margin-top: 32px; }
+.cs-res { padding: 40px 38px; }
+.cs-res p { font-size: 32px; }
+.cs-res p.m { font-size: 26px; }
+.s16 { gap: 56px; }
+.s16 .tile { height: 580px; }
+.s16 .chk li { font-size: 34px; margin-bottom: 34px; }
+.s17 .lead { font-size: 32px; }
+
+/* 18 · ещё кейсы: карточки до нижнего поля, без пустой середины */
+.five { gap: 24px; margin-top: 36px; }
+.five .card, .five .card:nth-child(n+4) { min-height: 600px; padding: 36px 32px; }
+.five .n { font-size: 84px; }
+.five h3 { font-size: 34px; margin-bottom: 18px; }
+.five p { font-size: 27px; }
+.note18 { margin-top: 36px; font-size: 32px; }
+.five { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.five .card, .five .card:nth-child(n+4) { min-height: 680px; }
+.five .n { white-space: nowrap; font-size: 76px; }
+.five h3 { font-size: 31px; }
+.five p { font-size: 25px; }
+.note18 { position: absolute; left: 96px; bottom: 110px; margin: 0; }
+.s13 .stat, .s13-adn { min-height: 600px; }
+.s13 .n.sm { font-size: 54px; white-space: nowrap; }
+.s10-stats .stat { flex: 1; }
+.s11 { align-items: stretch; }
+.s11 .card { min-height: 380px; }
+.five .n { font-size: 64px; }
