@@ -505,3 +505,12 @@ strong { font-weight: 700; color: var(--navy); }
 .s9f .res div + div { padding-top: 16px; border-top: 1px solid rgba(255,255,255,.25); }
 .s9f .res strong { color: var(--sky); }
 .gal9 { top: 570px; }
+
+/* тёмные фоны: стальной синий вместо navy (заголовки на светлых листах остаются navy) */
+:root { --deep: #2A5C87; --sky-on-deep: #7FD3F7; }
+.slide.dark, .cs-res, .mon-hero, .s9f .res, #turn { background: var(--deep); }
+.section .num, .mon-hero .n, .cs-res b, .cs-res strong, .s9f .res strong, .final .contacts span { color: var(--sky-on-deep); }
+.final .contacts div { border-top-color: var(--sky-on-deep); }
+.cover .note { border-left-color: var(--sky-on-deep); background: rgba(255,255,255,.10); }
+.cover .sub, .final .sub, .section p, .mon-hero p.m { color: #DCE8F2; }
+.dark .foot, .cs-res p.m { color: #C3D6E6; }
