@@ -540,3 +540,16 @@ strong { font-weight: 700; color: var(--navy); }
 .s13 .stat { padding-top: 36px; gap: 14px; }
 .s13 .stat .n, .s13 .stat .n.sm { height: 140px; }
 .s13 + .callout { position: static; margin-top: 24px !important; }
+
+/* 21 · ещё 5 кейсов: содержимое карточки собрано, без пустой середины */
+.five .card, .five .card:nth-child(n+4) { min-height: 0; height: 520px; padding: 40px 32px; border-left: 1px solid var(--line); border-top: 6px solid var(--accent); }
+.five .n { margin: 0 0 32px; padding: 0 0 28px; border-bottom: 1px solid var(--line); font-size: 72px; }
+.five h3 { font-size: 34px; margin-bottom: 16px; }
+.five p { font-size: 28px; line-height: 1.38; }
+.note18 { position: static; margin-top: 40px; }
+.five { grid-template-columns: 1fr; gap: 16px; }
+.five .card, .five .card:nth-child(n+4) { grid-column: auto; height: 124px; display: grid; grid-template-columns: 260px 560px 1fr; align-items: center; gap: 40px; padding: 0 44px; border-top: 1px solid var(--line); border-left: 6px solid var(--accent); }
+.five .n { margin: 0; padding: 0; border: 0; font-size: 64px; }
+.five h3 { margin: 0; font-size: 34px; }
+.five p { margin: 0; font-size: 30px; color: var(--ink-2); }
+.note18 { margin-top: 32px; }
