@@ -540,3 +540,20 @@ strong { font-weight: 700; color: var(--navy); }
 .s13 .stat { padding-top: 36px; gap: 14px; }
 .s13 .stat .n, .s13 .stat .n.sm { height: 140px; }
 .s13 + .callout { position: static; margin-top: 24px !important; }
+
+/* 17–20 · кейсы, вариант A: иллюстрация на всю ширину, результат лентой снизу */
+.cs { grid-template-columns: 1fr; grid-template-rows: minmax(0, 1fr) 150px; gap: 24px; height: 720px; }
+.cs-res { flex-direction: row; align-items: center; gap: 44px; padding: 0 48px; }
+.cs-res b { flex: none; }
+.cs-res .n { margin: 0; flex: none; font-size: 104px; }
+.cs-res p { margin: 0; font-size: 34px; max-width: 520px; }
+.cs-res p.m { margin: 0 0 0 auto; padding: 0 0 0 40px; border-top: 0; border-left: 1px solid rgba(255,255,255,.3); max-width: 560px; font-size: 28px; }
+.s16 { grid-template-columns: 520px 1fr; }
+.s16 .tile { height: 520px; }
+.s16 .chk li { font-size: 32px; margin-bottom: 26px; }
+.cs > .shot, .s17 .shot { min-height: 0; overflow: hidden; }
+.cs > .shot img, .s17 .shot img { height: 100%; width: auto; max-width: 100%; object-fit: contain; }
+.s17 { min-height: 0; height: 100%; }
+.s17 .shot { flex: 1 1 0; margin: 0; }
+.cs > .shot, .s17 .shot { display: flex; align-items: center; justify-content: center; }
+.cs > .shot img, .s17 .shot img { height: auto; width: auto; max-height: 100%; max-width: 100%; min-height: 0; }
