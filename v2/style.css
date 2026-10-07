@@ -514,3 +514,15 @@ strong { font-weight: 700; color: var(--navy); }
 .cover .note { border-left-color: var(--sky-on-deep); background: rgba(255,255,255,.10); }
 .cover .sub, .final .sub, .section p, .mon-hero p.m { color: #DCE8F2; }
 .dark .foot, .cs-res p.m { color: #C3D6E6; }
+
+/* 16 · Revit API: справа три строки «цифра — пояснение» вместо высоких пустых карточек */
+.s13 { grid-template-columns: 1fr 1.25fr; grid-template-rows: repeat(3, 1fr); gap: 20px; height: 600px; }
+.s13 .s13-adn { grid-row: 1 / 4; min-height: 0; justify-content: center; gap: 40px; padding: 48px 52px; }
+.s13 .s13-adn img { max-width: 560px; }
+.s13 .s13-adn p { font-size: 32px; }
+.s13 .stat { min-height: 0; flex-direction: row; align-items: center; justify-content: flex-start; gap: 36px; padding: 0 44px; font-size: 32px; border-left: 6px solid var(--accent); }
+.s13 .stat .n { flex: none; width: 150px; margin: 0; font-size: 96px; }
+.s13 .stat .n.sm { width: auto; font-size: 60px; }
+.s13 { height: 650px; }
+.s13 .stat .n, .s13 .stat .n.sm { width: 270px; }
+.s13 .stat .n, .s13 .stat .n.sm { width: 330px; } .s13 .stat .n.sm { font-size: 56px; }
