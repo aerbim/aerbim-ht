@@ -496,3 +496,12 @@ strong { font-weight: 700; color: var(--navy); }
 .s8 { height: 520px; }
 .mon { height: 700px; }
 .org { height: 600px; }
+
+/* 12 · формула: условие + условие = результат */
+.s9f { display: grid; grid-template-columns: 1fr 64px 1fr 64px 1.7fr; align-items: stretch; height: 230px; }
+.s9f .op { display: grid; place-items: center; color: var(--accent); font-size: 72px; font-weight: 700; line-height: 1; }
+.s9f .cond { display: flex; align-items: center; padding: 24px 30px; background: var(--paper); border: 1px solid var(--line); border-top: 6px solid var(--accent); border-radius: 8px; font-size: 30px; line-height: 1.3; }
+.s9f .res { display: flex; flex-direction: column; justify-content: center; gap: 16px; padding: 24px 34px; background: var(--navy); color: #fff; border-radius: 8px; font-size: 28px; line-height: 1.3; }
+.s9f .res div + div { padding-top: 16px; border-top: 1px solid rgba(255,255,255,.25); }
+.s9f .res strong { color: var(--sky); }
+.gal9 { top: 570px; }
