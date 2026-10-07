@@ -405,3 +405,62 @@ strong { font-weight: 700; color: var(--navy); }
 .s11 { align-items: stretch; }
 .s11 .card { min-height: 380px; }
 .five .n { font-size: 64px; }
+
+/* ===== Подача v2, проход 2: слайды 1–4, 8, 9, 19 ===== */
+/* 1 · обложка: крупнее, сбалансировано по высоте */
+.cover h1 { top: 270px; font-size: 96px; }
+.cover .sub { top: 560px; font-size: 36px; }
+.cover .note { top: 730px; font-size: 34px; padding: 36px 44px; }
+
+/* 2 · коротко о главном */
+.s2 .lead { font-size: 30px; }
+.s2 .stats { gap: 24px; }
+.s2 .stat { padding: 26px 32px 28px; }
+.s2 .stat .n { font-size: 72px; }
+.s2 .stat p { font-size: 26px; }
+.s2 .wide .card { font-size: 27px; }
+
+/* 3 · структура СП: тело карточек крупнее, вывод у нижнего поля */
+.org { height: 680px; }
+.org h3 { font-size: 38px; }
+.org .yr { font-size: 26px; }
+.org .b li { font-size: 26px; margin-bottom: 14px; }
+.org .url { font-size: 28px; }
+.s3 .callout { position: absolute; left: 96px; right: 96px; bottom: 60px; margin: 0; font-size: 30px; padding: 26px 36px; }
+
+/* 4 · MEP: текст карточек чуть крупнее */
+.s4 .card { font-size: 25px; }
+
+/* 8 · проекты: цифры распределены по высоте колонки */
+.s8-stats .stat { flex: 1; font-size: 26px; }
+.s8-stats .n { font-size: 64px; min-width: 130px; }
+.s8 .s8-note { font-size: 24px; }
+
+/* 9 · специализация */
+.s9 .card { font-size: 29px; padding: 20px 30px; }
+.s9 .k { font-size: 56px; }
+
+/* 19 · финал */
+.final h1 { top: 300px; font-size: 104px; }
+.final .sub { top: 470px; font-size: 38px; }
+.final .contacts { top: 680px; }
+.final .contacts div { font-size: 42px; padding-top: 28px; }
+.final .contacts span { font-size: 24px; margin-bottom: 14px; }
+.cover h1 { width: 1720px; top: 250px; }
+.cover .sub { top: 500px; }
+.cover .note { top: 680px; }
+.s2 .lead { font-size: 28px; }
+.s2 .stats { margin-top: 24px; gap: 20px; }
+.s2 .stat { padding: 20px 30px 22px; }
+.s2 .stat .n { font-size: 66px; }
+.s2 .stat p { font-size: 25px; margin-top: 10px; }
+.s2 .wide { margin-top: 20px; }
+.s2 .wide .card { font-size: 26px; padding: 20px 32px; }
+.org { height: 640px; }
+.s3 .callout { bottom: 52px; }
+.s8-stats .stat { font-size: 24px; }
+.s8-stats .n { font-size: 58px; min-width: 112px; }
+.s9 .card { font-size: 28px; padding: 16px 28px; }
+.gal9 { top: 530px; bottom: 60px; }
+.cover .sub { top: 530px; }
+.cover .note { top: 710px; }
